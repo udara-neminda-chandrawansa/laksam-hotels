@@ -9,6 +9,10 @@
   font-family: "Helvetica";
   src: url("../fonts/Helvetica.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Cinzel";
+  src: url("../fonts/Cinzel-Regular.ttf") format("truetype");
+}
 
 /**/
 
@@ -161,7 +165,7 @@
   padding: 15px 36px 17px;
   overflow: hidden;
   align-items: center;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Cinzel", sans-serif;
 }
 .theme-btn::after,
 .theme-btn::before {
@@ -246,7 +250,7 @@
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Cinzel", sans-serif;
   border-bottom: 2px solid var(--header);
 }
 .link-btn:hover {
@@ -282,11 +286,11 @@
     Template Default Fonts & Fonts Styles
  ---------------------------------------------- */
 .heading-font {
-  font-family: "Helvetica", serif;
+  font-family: "Cinzel", serif;
 }
 
 .sub-font {
-  font-family: "Helvetica", cursive;
+  font-family: "Cinzel", cursive;
 }
 
 .body-font {
@@ -332,7 +336,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica", serif;
+  font-family: "Cinzel", serif;
   margin: 0px;
   font-style: normal;
   padding: 0;
@@ -491,7 +495,7 @@ span {
   padding-top: 20px;
 }
 .thumb2-wrap .thumb2-inne .about-textcircle .boxes .exprience {
-  font-family: "Helvetica", serif;
+  font-family: "Cinzel", serif;
   font-size: 70px;
   font-weight: 300;
   color: var(--theme);
@@ -3949,7 +3953,7 @@ span {
   padding-top: 20px;
 }
 .hero-section.hero-style2 .hero-1 .about-textcircle .boxes .exprience {
-  font-family: "Helvetica", serif;
+  font-family: "Cinzel", serif;
   font-size: 70px;
   font-weight: 300;
   color: var(--white);
@@ -4099,7 +4103,7 @@ span {
     padding-top: 20px;
   }
   .hero-section.hero-style2 .hero-1 .about-textcircle .boxes .exprience {
-    font-family: "Helvetica", serif;
+    font-family: "Cinzel", serif;
     font-size: 70px;
     font-weight: 300;
     color: var(--white);
@@ -4828,7 +4832,7 @@ span {
   font-size: 130px;
   font-weight: 900;
   text-transform: uppercase;
-  font-family: "Helvetica", serif;
+  font-family: "Cinzel", serif;
   line-height: 134px;
 }
 .scrolling-wrap .comm .text-custom-storke {
