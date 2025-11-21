@@ -319,3 +319,173 @@
             </div>
         </div>
     </section>
+
+
+
+    <!-- Apartment Section -->
+    <section class="apartment-section4 fix white-bg space-top space-bottom">
+        <div class="container">
+            <div
+                class="blog-head-area mb-50 pb-md-0 pb-2 d-flex align-items-end justify-content-between gap-3 flex-wrap">
+                <div class="section-title">
+                    <span class="sub-font wow fadeInUp">Best Rooms</span>
+                    <h2 class="fw-semibold wow fadeInUp" data-wow-delay=".3s">
+                        Choose Your Apartment <br> Type Rooms Quality
+                    </h2>
+                </div>
+                <a href="room-list.html"
+                    class="theme-btn header-bg rounded-3 fw-normal text-capitalize gap-1 py-3 px-6">
+                    Explore More
+                </a>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="apartment-item aprtment-rooms4 rounded-3 overflow-hidden w-100">
+                        <img src="assets/img/rooms/room-q1.jpg" alt="img" class="w-100 mimg">
+                        <div class="apartment-cont rounded-3">
+                            <h3 class="black-clr fs-32 fw-semibold">Family Rooms</h3>
+                            <div class="apartment-cont-inner">
+                                <ul class="invirment d-flex align-items-center gap-4">
+                                    <li class="d-flex align-items-center gap-2">
+                                        <img src="assets/img/icon/sq-fit.png" alt="icon"> <span
+                                            class="black-clr fs-20 body-font">260sq</span>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-2">
+                                        <img src="assets/img/icon/double-bed.png" alt="icon"> <span
+                                            class="black-clr fs-20 body-font">2
+                                            Beds</span>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-2">
+                                        <img src="assets/img/icon/guests.png" alt="icon"> <span
+                                            class="black-clr fs-20 body-font">4
+                                            Guests</span>
+                                    </li>
+                                </ul>
+                                <a href="room-list.html"
+                                    class="theme-btn py-sm-3 py-2 bg-transparent rounded-4 fw-normal text-capitalize gap-1 px-sm-4 px-3">
+                                    Room Details
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="apartment-item aprtment-rooms4 aprtment-rooms-small rounded-3 overflow-hidden w-100">
+                        <img src="assets/img/rooms/room-q2.jpg" alt="img" class="w-100 mimg">
+                        <div class="apartment-cont rounded-3 px-4">
+                            <h5 class="black-clr fw-semibold">Small Rooms</h5>
+                            <div class="apartment-cont-inner">
+                                <ul class="invirment d-flex align-items-center gap-4">
+                                    <li class="d-flex align-items-center gap-1">
+                                        <img src="assets/img/icon/sq-fit.png" alt="icon"> <span
+                                            class="black-clr fs-20 body-font">260sq</span>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-1">
+                                        <img src="assets/img/icon/double-bed.png" alt="icon"> <span
+                                            class="black-clr fs-20 body-font">2
+                                            Beds</span>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-1">
+                                        <img src="assets/img/icon/guests.png" alt="icon"> <span
+                                            class="black-clr fs-20 body-font">4
+                                            Guests</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#"
+                                class="theme-btn py-sm-2 py-2 bg-transparent rounded-4 fw-normal text-capitalize gap-1 px-sm-3 px-3">
+                                Room Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                    <div class="apartment-item aprtment-rooms4 aprtment-rooms-small rounded-3 overflow-hidden w-100">
+                        <img src="assets/img/rooms/room-q3.jpg" alt="img" class="w-100 mimg">
+                        <div class="apartment-cont rounded-3 px-4">
+                            <h5 class="black-clr fw-semibold">Suitable Rooms</h5>
+                            <div class="apartment-cont-inner">
+                                <ul class="invirment d-flex align-items-center gap-4">
+                                    <li class="d-flex align-items-center gap-1">
+                                        <img src="assets/img/icon/sq-fit.png" alt="icon"> <span
+                                            class="black-clr fs-20 body-font">260sq</span>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-1">
+                                        <img src="assets/img/icon/double-bed.png" alt="icon"> <span
+                                            class="black-clr fs-20 body-font">2
+                                            Beds</span>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-1">
+                                        <img src="assets/img/icon/guests.png" alt="icon"> <span
+                                            class="black-clr fs-20 body-font">4
+                                            Guests</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#"
+                                class="theme-btn py-sm-2 py-2 bg-transparent rounded-4 fw-normal text-capitalize gap-1 px-sm-3 px-3">
+                                Room Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Facilites Section (hidden) -->
+    <section class="facileties-section4 bg2 fix section-padding">
+        <div class="container">
+            <div class="section-title text-center mb-50">
+                <span class="sub-font wow fadeInUp">Best Facilities</span>
+                <h2 class="fw-semibold wow fadeInUp" data-wow-delay=".3s">
+                    Explore Our Best <br> Facilities
+                </h2>
+            </div>
+            <div class="facilites-wrap">
+                <div class="facilites-item white-bg d-center position-relative wow fadeInUp" data-wow-delay="3.s">
+                    <img src="assets/img/element/faci-shape-bg4.png" alt="img" class="facilites-bg">
+                    <div class="facilites-cont text-center">
+                        <img src="assets/img/icon/fc-wifi.png" alt="img" class="mb-sm-3 mb-2 d-block m-auto">
+                        <span class="fs-20 fw-semibold text-uppercase black-clr">Fast WIFI</span>
+                    </div>
+                </div>
+                <div class="facilites-item white-bg d-center position-relative wow fadeInUp" data-wow-delay="4.s">
+                    <img src="assets/img/element/faci-shape-bg4.png" alt="img" class="facilites-bg">
+                    <div class="facilites-cont text-center">
+                        <img src="assets/img/icon/fc-coffee.png" alt="img" class="mb-sm-3 mb-2 d-block m-auto">
+                        <span class="fs-20 fw-semibold text-uppercase black-clr">coffee</span>
+                    </div>
+                </div>
+                <div class="facilites-item white-bg d-center position-relative wow fadeInUp" data-wow-delay="5.s">
+                    <img src="assets/img/element/faci-shape-bg4.png" alt="img" class="facilites-bg">
+                    <div class="facilites-cont text-center">
+                        <img src="assets/img/icon/fc-bath.png" alt="img" class="mb-sm-3 mb-2 d-block m-auto">
+                        <span class="fs-20 fw-semibold text-uppercase black-clr">BATH</span>
+                    </div>
+                </div>
+                <div class="facilites-item white-bg d-center position-relative wow fadeInUp" data-wow-delay="6.s">
+                    <img src="assets/img/element/faci-shape-bg4.png" alt="img" class="facilites-bg">
+                    <div class="facilites-cont text-center">
+                        <img src="assets/img/icon/fc-swimming.png" alt="img" class="mb-sm-3 mb-2 d-block m-auto">
+                        <span class="fs-20 fw-semibold text-uppercase black-clr">Swimming Pool</span>
+                    </div>
+                </div>
+                <div class="facilites-item white-bg d-center position-relative wow fadeInUp" data-wow-delay="7.s">
+                    <img src="assets/img/element/faci-shape-bg4.png" alt="img" class="facilites-bg">
+                    <div class="facilites-cont text-center">
+                        <img src="assets/img/icon/fc-parking.png" alt="img" class="mb-sm-3 mb-2 d-block m-auto">
+                        <span class="fs-20 fw-semibold text-uppercase black-clr">Parking Space</span>
+                    </div>
+                </div>
+                <div class="facilites-item white-bg d-center position-relative wow fadeInUp" data-wow-delay="8.s">
+                    <img src="assets/img/element/faci-shape-bg4.png" alt="img" class="facilites-bg">
+                    <div class="facilites-cont text-center">
+                        <img src="assets/img/icon/fc-spa.png" alt="img" class="mb-sm-3 mb-2 d-block m-auto">
+                        <span class="fs-20 fw-semibold text-uppercase black-clr">Spa & Makeup</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

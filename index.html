@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--<< Header Area >>-->
-
 
 <head>
     <!-- ========== Meta Tags ========== -->
@@ -9,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Silicon Radon Networks (Pvt) Ltd">
-    <meta name="description" content="Laksam Hotels">
+    <meta name="description" content="Laksam Hotels (Pvt) Ltd">
     <meta name="og:image" content="assets/img/favicon.png">
     <!-- ======== Page title ============ -->
     <title>Laksam Hotels (Pvt) Ltd</title>
@@ -37,6 +35,11 @@
 
 <body class="body-bg">
 
+    <!-- Back To Top start -->
+    <!-- <button id="back-top" class="back-to-top">
+            <i class="fa-regular fa-arrow-up"></i>
+        </button> -->
+
     <!-- Offcanvas Area Start -->
     <div class="fix-area">
         <div class="offcanvas__info">
@@ -45,7 +48,7 @@
                     <div class="offcanvas__top mb-4 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
                             <a href="index.html">
-                                <img src="assets/img/logo.png" alt="logo-img" width="100" style="border-radius: 999px;">
+                                <img src="assets/img/logo/logo-white.png" alt="logo-img">
                             </a>
                         </div>
                         <div class="offcanvas__close">
@@ -69,9 +72,7 @@
                                     <i class="fal fa-map-marker-alt"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">
-                                        No:30, Gemunu Pura, Magasthota, Nuwara Eliya, Sri Lanka
-                                    </a>
+                                    <a target="_blank" href="#">Strits Es/154 Maces Road 1/8 United State</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -79,9 +80,10 @@
                                     <i class="fal fa-envelope"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="mailto:info@laksam.lk">
-                                        <span>info@laksam.lk</span>
-                                    </a>
+                                    <a href="mailto:info@example.com"><span
+                                            class="mailto:info@example.com">info@example.com</span></a>
+                                    <a href="mailto:info@example.com"><span
+                                            class="mailto:info@example.com">ex@example.com</span></a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -89,7 +91,7 @@
                                     <i class="fal fa-clock"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Sat-friday, 02am - 09pm</a>
+                                    <a target="_blank" href="#">Sat-friday, 02am -09pm</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -97,16 +99,15 @@
                                     <i class="far fa-phone"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="tel:+94777611290" class="d-block">
-                                        0777 611 290
-                                    </a>
+                                    <a href="tel:+11002345909" class="d-block">365 5552-0127</a>
+                                    <a href="tel:+11002345909">5421 5545 5422</a>
                                 </div>
                             </li>
                         </ul>
                         <div class="header-button mt-4">
-                            <a href="#"
+                            <a href="contact.html"
                                 class="theme-btn d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 fs-16 rounded-1 fw-500 black-clr overflow-hidden">
-                                Book Now
+                                Get Start
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
@@ -124,15 +125,36 @@
 
     <div class="offcanvas__overlay"></div>
 
+    <!-- Header Top Section Start -->
+    <div class="header-top-section style3 d-lg-block d-none overflow-hidden">
+        <div class="container">
+            <div class="header-top-wrapper">
+                <a href="#" class="located d-flex align-items-center gap-2 fs-14">
+                    <i class="fa-solid fa-location-dot"></i> No:30, Gemunu Pura, Magasthota, Nuwara Eliya, Sri Lanka
+                </a>
+                <ul class="contact-list">
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="#" class="link">0777 611 290</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="#" class="link">info@laksam.lk</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <!-- Header Section Start -->
-    <header id="header-sticky" class="header-1 white-variation">
+    <header id="header-sticky" class="header-1 bg-transparent white-variation">
         <div class="container">
             <div class="mega-menu-wrapper">
                 <div class="header-main">
                     <div class="header-left">
                         <div class="logo">
                             <a href="index.html" class="header-logo">
-                                <img src="assets/img/logo.png" width="30" style="border-radius: 9999px;" alt="logo-img">
+                                <img src="assets/img/logo/logo-white.png" alt="logo-img">
                             </a>
                         </div>
                     </div>
@@ -141,31 +163,26 @@
                             <div class="main-menu">
                                 <nav id="mobile-menu">
                                     <ul>
-                                        <li>
+                                        <li class="has-dropdown active menu-thumb">
                                             <a href="index.html">
                                                 Home
+                                                <i class="fas fa-angle-down"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                About Us
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Rooms <i class="fas fa-angle-down"></i>
+                                                Rooms
+                                                <i class="fas fa-angle-down"></i>
                                             </a>
                                             <ul class="submenu">
-                                                <li><a href="#">Superior Room</a></li>
-                                                <li><a href="#">Superior Room</a></li>
-                                                <li><a href="#">Superior Room</a></li>
+                                                <li><a href="#">Rooms Grid</a></li>
+                                                <li><a href="#">Rooms List</a></li>
+                                                <li><a href="#">Rooms Details</a></li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#">Restaurant</a>
+                                            <a href="#">RESTAURANT</a>
                                         </li>
-
-
                                         <li>
                                             <a href="#">Contact</a>
                                         </li>
@@ -173,9 +190,19 @@
                                 </nav>
                             </div>
                         </div>
+                        <a href="#0" class="search-trigger d-lg-none d-block">
+                            <img src="assets/img/icon/search.png" alt="img">
+                        </a>
+                        <div class="header__hamburger d-lg-none my-auto">
+                            <div class="sidebar__toggle">
+                                <img src="assets/img/icon/bars.png" alt="icon">
+                            </div>
+                        </div>
                     </div>
-                    <div class="d-none d-xl-flex"></div>
-                    <div class="d-flex d-xl-none align-items-center gap-xxl-4 gap-3">
+                    <div class="d-lg-flex d-none align-items-center gap-xxl-4 gap-3">
+                        <a href="#0" class="search-trigger">
+                            <img src="assets/img/icon/search.png" alt="img">
+                        </a>
                         <button type="button" class="destop-bars sidebar__toggle">
                             <img src="assets/img/icon/bars.png" alt="img">
                         </button>
@@ -185,144 +212,124 @@
         </div>
     </header>
 
-
-    <!-- Hero Section -->
-    <section class="hero-section">
+    <!-- Hero section start -->
+    <section class="hero-section hero-style4">
         <div class="swiper hero-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="hero-1">
-                        <div class="hero-bg bg-cover"
-                            style="background-image:url('assets/img/jaide-fb/outside/10.jpg')">
+                        <div class="hero-bg bg-cover" style="background-image: url(assets/img/hero/hero-bg4.jpg);">
                         </div>
                         <div class="container">
-                            <div style="height: 50dvh;"></div>
-                        </div>
-                        <div class="hero-slide-btn">
-                            <button type="button" class="common-slide-btn d-center rounded-1 array-prev">
-                                <i class="fa-solid fa-angle-left"></i>
-                            </button>
-                            <button type="button" class="common-slide-btn d-center rounded-1 array-next">
-                                <i class="fa-solid fa-angle-right"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="hero-1">
-                        <div class="hero-bg bg-cover"
-                            style="background-image:url('assets/img/jaide-fb/outside/11.jpg')">
-                        </div>
-                        <div class="container">
-                            <div style="height: 50dvh;"></div>
-                        </div>
-                        <div class="hero-slide-btn">
-                            <button type="button" class="common-slide-btn d-center rounded-1 array-prev">
-                                <i class="fa-solid fa-angle-left"></i>
-                            </button>
-                            <button type="button" class="common-slide-btn d-center rounded-1 array-next">
-                                <i class="fa-solid fa-angle-right"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="hero-1">
-                        <div class="hero-bg bg-cover"
-                            style="background-image:url('assets/img/jaide-fb/outside/8.jpg')">
-                        </div>
-                        <div class="container">
-                            <div style="height: 50dvh;"></div>
-                        </div>
-                        <div class="hero-slide-btn">
-                            <button type="button" class="common-slide-btn d-center rounded-1 array-prev">
-                                <i class="fa-solid fa-angle-left"></i>
-                            </button>
-                            <button type="button" class="common-slide-btn d-center rounded-1 array-next">
-                                <i class="fa-solid fa-angle-right"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="hero-1">
-                        <div class="hero-bg bg-cover"
-                            style="background-image:url('assets/img/jaide-fb/outside/9.jpg')">
-                        </div>
-                        <div class="container">
-                            <div style="height: 50dvh;"></div>
-                        </div>
-                        <div class="hero-slide-btn">
-                            <button type="button" class="common-slide-btn d-center rounded-1 array-prev">
-                                <i class="fa-solid fa-angle-left"></i>
-                            </button>
-                            <button type="button" class="common-slide-btn d-center rounded-1 array-next">
-                                <i class="fa-solid fa-angle-right"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                            <div class="hero-content">
+                                <span class="sub-font text-white sub-title fs-20 mb-sm-4 mb-3 d-block">
+                                    Authentic historical charm
+                                </span>
+                                <h1 class="mb-lg-5 mb-4 pb-lg-0 pb-2 text-capitalize white-clr fw-bold">
+                                    Start A New Vision OF comport Zone
+                                </h1>
 
-    <!-- Highlight Banner -->
-    <div class="highlight-text py-3 theme-bg">
-        <div class="container">
-            <p class="fs-18 body-font black-clr text-center fw-500">
-                Enjoy an exclusive offer – book your stay for three nights and receive 25% off. Offer valid from May 1st
-                to September 30th.
-            </p>
-        </div>
-    </div>
-
-    <!-- About Section -->
-    <section class="about-section position-relative section-padding bg3 fix">
-        <div class="container">
-            <div class="about-wrapper">
-                <div class="row g-4 align-items-center">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="about-content mb-50">
-                            <div class="section-title">
-                                <span class="sub-font mb-xxl-4 mb-3 d-block wow fadeInUp">About Laksam Hotels</span>
-                                <h2 class="wow fadeInUp fw-semibold mb-lg-3 mb-2" data-wow-delay=".3s">
-                                    Where timeless Sri Lankan charm meets sophisticated luxury.
-                                </h2>
                             </div>
-                            <p class="fs-18 pra-clr mb-sm-4 mb-3 pb-xxl-2">
-                                Located in the vibrant heart of Kandy, Laksam Hotels offers a unique blend of cultural
-                                richness and refined comfort. Our warm hospitality, paired with scenic views and
-                                top-tier amenities, promises an unforgettable stay.
-                            </p>
-                            <a href="#" class="theme-btn fw-normal text-capitalize gap-1 px-6">Discover More</a>
-                        </div>
-                        <div class="about-thumb1 w-100">
-                            <img src="assets/img/jaide-fb/kandy/7.jpg"
-                                alt="Laksam Hotels Kandy" class="aspect-video w-100">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="thumb2-wrap">
-                            <div class="thumb1 mb-4 w-100 wow fadeInDown" data-wow-delay=".4s">
-                                <img src="assets/img/jaide-fb/kandy/6.jpg" alt="Temple of the Tooth" class="aspect-video w-100">
-                            </div>
-                            <div class="thumb2-inne d-flex gap-3">
-                                <div class="thumb-small wow fadeInRight" data-wow-delay=".3s">
-                                    <img src="assets/img/jaide-fb/kandy/1.jpg"
-                                        alt="Kandy Lake">
-                                </div>
-                                <div class="about-textcircle d-center position-relative wow fadeInUp"
-                                    data-wow-delay=".5s">
-                                    <div class="boxes">
-                                        <span class="exprience d-flex align-items-end justify-content-center">
-                                            15<span class="text-uppercase year fs-16"> YEARS</span>
-                                        </span>
-                                        <p class="fs-16 text-nowrap d-block heading-font text-capitalize mt-2">
-                                            Of Excellence – rooted in tradition, elevated by innovation.
-                                        </p>
+                            <div class="date-picker-container">
+                                <form id="booking-form"
+                                    class="d-flex flex-lg-nowrap justify-content-lg-between justify-content-center flex-wrap align-items-end gap-xxl-4 gap-xl-3 gap-2">
+                                    <div class="form-group">
+                                        <label for="check-in" class="black2-clr fs-14 fw-500 mb-2 d-block">Check
+                                            In:</label>
+                                        <input type="date" id="check-in" name="check-in">
                                     </div>
-                                </div>
+
+                                    <div class="form-group">
+                                        <label for="check-out"
+                                            class="black2-clr fs-14 fw-500 mb-2 d-block">check-out:</label>
+                                        <input type="date" id="check-out" name="check-out">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="adults3" class="black2-clr fs-14 fw-500 mb-2 d-block">Guest:</label>
+                                        <select id="adults3" name="adults">
+                                            <option value="1">Adult:</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit"
+                                            class="theme-btn text-nowrap d-center rounded-4 fs-16 fw-500 text-center gap-2 text-capitalize">
+                                            Search <i class="fa-solid fa-magnifying-glass"></i>
+                                        </button>
+                                    </div>
+                                </form>
                             </div>
+                        </div>
+                        <div class="hero-slide-btn">
+                            <button type="button" class="common-slide-btn d-center array-prev">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </button>
+                            <button type="button" class="common-slide-btn d-center array-next">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-1">
+                        <div class="hero-bg bg-cover"
+                            style="background-image: url(assets/img/hero/home-slide-repeat1.png);">
+                        </div>
+                        <div class="container">
+                            <div class="hero-content">
+                                <span class="sub-font text-white sub-title fs-20 mb-sm-4 mb-3 d-block">
+                                    Authentic historical charm
+                                </span>
+                                <h1 class="mb-lg-5 mb-4 pb-lg-0 pb-2 text-capitalize white-clr fw-bold">
+                                    Start A New Vision OF comport Zone
+                                </h1>
+
+                            </div>
+                            <div class="date-picker-container">
+                                <form id="booking-form2"
+                                    class="d-flex flex-lg-nowrap justify-content-lg-between justify-content-center flex-wrap align-items-end gap-xxl-4 gap-xl-3 gap-2">
+                                    <div class="form-group">
+                                        <label for="check-in2" class="black2-clr fs-14 fw-500 mb-2 d-block">Check
+                                            In:</label>
+                                        <input type="date" id="check-in2" name="check-in">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="check-out2"
+                                            class="black2-clr fs-14 fw-500 mb-2 d-block">check-out:</label>
+                                        <input type="date" id="check-out2" name="check-out">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="adults2" class="black2-clr fs-14 fw-500 mb-2 d-block">Guest:</label>
+                                        <select id="adults2" name="adults">
+                                            <option value="1">Adult:</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit"
+                                            class="theme-btn text-nowrap d-center rounded-4 fs-16 fw-500 text-center gap-2 text-capitalize">
+                                            Search <i class="fa-solid fa-magnifying-glass"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="hero-slide-btn">
+                            <button type="button" class="common-slide-btn d-center array-prev">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </button>
+                            <button type="button" class="common-slide-btn d-center array-next">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -330,484 +337,346 @@
         </div>
     </section>
 
-    <!-- Room Showcase Section (hidden) -->
-    <section class="apartment-section fix white-bg d-none">
-        <div class="swiper apartment-slider mb-50">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="apartment-item w-100">
-                        <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                            alt="Deluxe Suite" class="w-100 mimg">
-                        <div class="apartment-cont">
-                            <h3 class="white-clr fw-semibold">Royal Kandy Suite</h3>
-                            <div class="apartment-cont-inner">
-                                <ul class="invirment d-flex align-items-center gap-4">
-                                    <li class="d-flex align-items-center gap-2">
-                                        <i class="fas fa-expand-arrows-alt"></i>
-                                        <span class="white-clr fs-20 body-font">450sq ft</span>
-                                    </li>
-                                    <li class="d-flex align-items-center gap-2">
-                                        <i class="fas fa-bed"></i>
-                                        <span class="white-clr fs-20 body-font">King Bed</span>
-                                    </li>
-                                    <li class="d-flex align-items-center gap-2">
-                                        <i class="fas fa-users"></i>
-                                        <span class="white-clr fs-20 body-font">2 Guests</span>
-                                    </li>
-                                </ul>
-                                <a href="#"
-                                    class="theme-btn py-sm-3 py-2 fw-normal text-capitalize gap-1 px-sm-4 px-3">Room
-                                    Details</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="apartment-item w-100">
-                        <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                            alt="Garden View Room" class="w-100 mimg">
-                        <div class="apartment-cont">
-                            <h3 class="white-clr fw-semibold">Garden View Deluxe</h3>
-                            <div class="apartment-cont-inner">
-                                <ul class="invirment d-flex align-items-center gap-4">
-                                    <li class="d-flex align-items-center gap-2">
-                                        <i class="fas fa-expand-arrows-alt"></i>
-                                        <span class="white-clr fs-20 body-font">380sq ft</span>
-                                    </li>
-                                    <li class="d-flex align-items-center gap-2">
-                                        <i class="fas fa-bed"></i>
-                                        <span class="white-clr fs-20 body-font">Twin Beds</span>
-                                    </li>
-                                    <li class="d-flex align-items-center gap-2">
-                                        <i class="fas fa-users"></i>
-                                        <span class="white-clr fs-20 body-font">2 Guests</span>
-                                    </li>
-                                </ul>
-                                <a href="#"
-                                    class="theme-btn py-sm-3 py-2 fw-normal text-capitalize gap-1 px-sm-4 px-3">Room
-                                    Details</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="apartment-item w-100">
-                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                            alt="Lake View Suite" class="w-100 mimg">
-                        <div class="apartment-cont">
-                            <h3 class="white-clr fw-semibold">Kandy Lake Suite</h3>
-                            <div class="apartment-cont-inner">
-                                <ul class="invirment d-flex align-items-center gap-4">
-                                    <li class="d-flex align-items-center gap-2">
-                                        <i class="fas fa-expand-arrows-alt"></i>
-                                        <span class="white-clr fs-20 body-font">520sq ft</span>
-                                    </li>
-                                    <li class="d-flex align-items-center gap-2">
-                                        <i class="fas fa-bed"></i>
-                                        <span class="white-clr fs-20 body-font">King Bed</span>
-                                    </li>
-                                    <li class="d-flex align-items-center gap-2">
-                                        <i class="fas fa-users"></i>
-                                        <span class="white-clr fs-20 body-font">3 Guests</span>
-                                    </li>
-                                </ul>
-                                <a href="#"
-                                    class="theme-btn py-sm-3 py-2 fw-normal text-capitalize gap-1 px-sm-4 px-3">Room
-                                    Details</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- About section start -->
+    <section class="about-section4 position-relative section-padding white-bg fix">
         <div class="container">
-            <div class="d-flex align-items-center justify-content-between">
-                <div class="swiper-pagination-cus"></div>
-                <div class="d-flex align-items-center gap-3">
-                    <button type="button" class="array-prev common-slide-btn">
-                        <i class="fas fa-arrow-left"></i>
-                    </button>
-                    <button type="button" class="array-next common-slide-btn">
-                        <i class="fas fa-arrow-right"></i>
-                    </button>
-                </div>
+            <div class="section-title text-center mb-50">
+                <span class="sub-font wow fadeInUp">About Helexa</span>
+                <h2 class="fw-semibold wow fadeInUp" data-wow-delay=".3s">
+                    Privileges are with you at <br> every moment of your Holidays
+                </h2>
             </div>
-        </div>
-    </section>
-
-    <!-- Rooms & Suites Section -->
-    <section class="luxries-section fix section-padding bg3">
-        <div class="container">
-            <div class="blog-head-area mb-50 d-flex align-items-end justify-content-between gap-3 flex-wrap">
-                <div class="section-title">
-                    <span class="sub-font wow fadeInUp d-none">Explore Luxury</span>
-                    <h2 class="fw-semibold wow fadeInUp" data-wow-delay=".3s">Rooms & Suites</h2>
-                    <p>
-                        Explore our refined selection of rooms and suites, each thoughtfully designed for comfort and
-                        luxury.
+            <div class="about-wrapper4">
+                <div class="about-content-version3">
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp fs-32 fw-semibold mb-xxl-3 mb-lg-3 mb-2" data-wow-delay=".3s">
+                            A Boutique Apartments In The <br> Bangla Town in London
+                        </h3>
+                    </div>
+                    <p class="fs-18 pra-clr mb-sm-4 mb-3 pb-xxl-1">
+                        It sounds like you're referring to the formatting of a headline related to a city hotel. If you
+                        are asking how to write
+                        or format a headline about a Luxury hotel, here's a simple guide Are you writing headline
+                        or looking for recent news on city hotels.
                     </p>
+                    <a href="about.html" class="theme-btn rounded-4 fw-normal text-capitalize gap-1 px-6">
+                        Discover More
+                    </a>
                 </div>
-                <a href="#" class="theme-btn fw-normal text-capitalize gap-1 py-3 px-6">All Rooms</a>
+                <div class="line"></div>
+                <div class="about-thumbv4">
+                    <img src="assets/img/about/about-version4.jpg" alt="img" class="rounded-3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Luxuries section start -->
+    <section class="dining-room-section fix section-padding bg2">
+        <div class="container">
+            <div class="room-head-area mb-50 d-flex align-items-end justify-content-between gap-lg-3 gap-2 flex-wrap">
+                <div class="section-title">
+                    <span class="sub-font wow fadeInUp">Offer</span>
+                    <h2 class="fw-semibold wow fadeInUp" data-wow-delay=".3s">
+                        Exclusive Offer For your <br> Comfort Zone
+                    </h2>
+                </div>
+                <h3 class="black-clr drink-dining-pra fw-500">
+                    <span class="fw-semibold text-decoration-underline">Get 30% Discount</span> on hotels Booking with
+                    above Websites.
+                </h3>
+            </div>
+            <div class="row g-lg-4 g-3 mb-50">
+                <div class="col-sm-6 col-md-6 col-lg-4 wow fadeInRight" data-wow-delay=".4s">
+                    <div class="offer-room-item position-relative overflow-hidden rounded-3 d-center w-100 wow fadeInUp"
+                        data-wow-delay=".4s">
+                        <img src="assets/img/rooms/offer-room.jpg" alt="img" class="w-100">
+                        <div class="content text-center px-2">
+                            <h3 class="offer-title fw-semibold black-clr">
+                                30%
+                                <span class="black-clr fs-14 d-block fw-normal">
+                                    OFF
+                                </span>
+                            </h3>
+                            <h3 class="fs-32 fw-bold white-clr mb-lg-4 mb-3">Restaurant Delfino</h3>
+                            <a href="restaurant.html"
+                                class="theme-btn header-bg bg-transparent rounded-3 fw-normal text-capitalize gap-1">
+                                View More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="offer-room-item position-relative overflow-hidden rounded-3 d-center w-100 wow fadeInUp"
+                        data-wow-delay=".4s">
+                        <img src="assets/img/rooms/offer-room.jpg" alt="img" class="w-100">
+                        <div class="content text-center px-2">
+                            <h3 class="offer-title fw-semibold black-clr">
+                                30%
+                                <span class="black-clr fs-14 d-block fw-normal">
+                                    OFF
+                                </span>
+                            </h3>
+                            <h3 class="fs-32 fw-bold white-clr mb-lg-4 mb-3">Spa & Makeup</h3>
+                            <a href="restaurant.html"
+                                class="theme-btn header-bg bg-transparent rounded-3 fw-normal text-capitalize gap-1">
+                                View More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 wow fadeInLeft" data-wow-delay=".4s">
+                    <div class="offer-room-item position-relative overflow-hidden rounded-3 d-center w-100 wow fadeInUp"
+                        data-wow-delay=".4s">
+                        <img src="assets/img/rooms/offer-room.jpg" alt="img" class="w-100">
+                        <div class="content text-center px-2">
+                            <h3 class="offer-title fw-semibold black-clr">
+                                30%
+                                <span class="black-clr fs-14 d-block fw-normal">
+                                    OFF
+                                </span>
+                            </h3>
+                            <h3 class="fs-32 fw-bold white-clr mb-lg-4 mb-3">Fitness Center</h3>
+                            <a href="restaurant.html"
+                                class="theme-btn header-bg bg-transparent rounded-3 fw-normal text-capitalize gap-1">
+                                View More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="restaurant.html"
+                    class="theme-btn header-bg rounded-4 fw-normal text-capitalize gap-1 py-3 px-6">
+                    Discovery Tour
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Luxuries section start -->
+    <section class="luxries-room-section fix section-padding bg3">
+        <div class="container">
+            <div class="room-head-area mb-50 d-flex align-items-end justify-content-between gap-lg-3 gap-2 flex-wrap">
+                <div class="section-title">
+                    <span class="sub-font wow fadeInUp">Rooms</span>
+                    <h2 class="fw-semibold wow fadeInUp" data-wow-delay=".3s">
+                        The Best Pricing Of A <br> Suitable Rooms
+                    </h2>
+                </div>
+                <p class="text-clr fs-16">
+                    It sounds like you're referring to the formatting of
+                    a headline related to a city hotel. If you are
+                    asking how to write
+                </p>
             </div>
             <div class="row g-md-4 g-4">
                 <div class="col-md-6 col-lg-4">
-                    <div class="luxries-single-item white-bg wow fadeInUp" data-wow-delay=".4s">
-                        <a href="#" class="thumb d-block mb-4 w-100 overflow-hidden">
-                            <img src="assets/img/jaide-fb/rooms-inside/3.webp"
-                                alt="Royal Suite" class="w-100 overflow-hidden">
+                    <div class="luxries-room-item wow fadeInUp" data-wow-delay=".4s">
+                        <a href="room-details.html" class="thumb d-block w-100 overflow-hidden">
+                            <img src="assets/img/rooms/rooms-v1.jpg" alt="img" class="w-100 overflow-hidden">
                         </a>
                         <div class="content">
-                            <span class="text-clr fs-16 fw-bold d-block mb-1">King Bed</span>
-                            <h3 class="mb-sm-4 mb-3">
-                                <a href="#" class="fw-semibold d-block black-clr">Royal Kandy Suite</a>
-                            </h3>
-                            <ul class="blog-admin d-flex align-items-center justify-content-center gap-3 mb-4 pb-xxl-2">
-                                <li class="d-flex flex-column align-items-center gap-2 black-clr fs-16 fw-500">
-                                    <i class="fas fa-expand-arrows-alt"></i> 450sq ft
+                            <ul class="blog-admin d-flex align-items-center justify-content-center gap-3">
+                                <li class="d-flex align-items-center gap-1 black-clr fs-14 fw-500">
+                                    <img src="assets/img/icon/square-white.png" alt="img" class="white-icon"> 260sq
                                 </li>
-                                <li class="d-flex flex-column align-items-center gap-2 black-clr fs-16 fw-500">
-                                    <i class="fas fa-bed"></i> King Bed
+                                <li class="d-flex align-items-center gap-1 black-clr fs-14 fw-500">
+                                    <img src="assets/img/icon/double-bed-white.png" alt="img" class="white-icon"> 2 Beds
                                 </li>
-                                <li class="d-flex flex-column align-items-center gap-2 black-clr fs-16 fw-500">
-                                    <i class="fas fa-users"></i> 2 Guests
-                                </li>
-                                <li class="d-flex flex-column align-items-center gap-2 black-clr fs-16 fw-500">
-                                    <i class="fas fa-coffee"></i> Breakfast
+                                <li class="d-flex align-items-center gap-1 black-clr fs-14 fw-500">
+                                    <img src="assets/img/icon/guests-white.png" alt="img" class="white-icon"> 4 Guests
                                 </li>
                             </ul>
-                            <a href="#" class="theme-btn fw-normal text-capitalize gap-1 py-3 px-6">Book Now</a>
+                            <div class="boxes">
+                                <h3 class="theme2-clr mb-xxl-1 mb-0 fs-32 body-font fw-bold">$280 <span
+                                        class="black-clr body-font fw-500 fs-14">/04 Day</span></h3>
+                                <h3 class="mb-xl-3 mb-2">
+                                    <a href="room-details.html" class="fw-semibold d-block black-clr">
+                                        Double Duplex Rooms
+                                    </a>
+                                </h3>
+                                <p class="mb-4">
+                                    Referring to the formatting of a headline related to a Beach Resort
+                                </p>
+                                <a href="room-details.html" class="theme-btn fw-normal text-capitalize gap-1 py-3 px-6">
+                                    Room Details
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="luxries-single-item white-bg wow fadeInUp" data-wow-delay=".6s">
-                        <a href="#" class="thumb d-block mb-4 w-100 overflow-hidden">
-                            <img src="assets/img/jaide-fb/rooms-inside/8.jpg"
-                                alt="Garden View" class="w-100 overflow-hidden">
+                    <div class="luxries-room-item wow fadeInRight" data-wow-delay=".5s">
+                        <a href="room-details.html" class="thumb d-block w-100 overflow-hidden">
+                            <img src="assets/img/rooms/rooms-v2.jpg" alt="img" class="w-100 overflow-hidden">
                         </a>
                         <div class="content">
-                            <span class="text-clr fs-16 fw-bold d-block mb-1">Twin Beds</span>
-                            <h3 class="mb-sm-4 mb-3">
-                                <a href="#" class="fw-semibold d-block black-clr">Garden View Deluxe</a>
-                            </h3>
-                            <ul class="blog-admin d-flex align-items-center justify-content-center gap-3 mb-4 pb-xxl-2">
-                                <li class="d-flex flex-column align-items-center gap-2 black-clr fs-16 fw-500">
-                                    <i class="fas fa-expand-arrows-alt"></i> 380sq ft
+                            <ul class="blog-admin d-flex align-items-center justify-content-center gap-3">
+                                <li class="d-flex align-items-center gap-1 black-clr fs-14 fw-500">
+                                    <img src="assets/img/icon/square-white.png" alt="img" class="white-icon"> 260sq
                                 </li>
-                                <li class="d-flex flex-column align-items-center gap-2 black-clr fs-16 fw-500">
-                                    <i class="fas fa-bed"></i> Twin Beds
+                                <li class="d-flex align-items-center gap-1 black-clr fs-14 fw-500">
+                                    <img src="assets/img/icon/double-bed-white.png" alt="img" class="white-icon"> 2 Beds
                                 </li>
-                                <li class="d-flex flex-column align-items-center gap-2 black-clr fs-16 fw-500">
-                                    <i class="fas fa-users"></i> 2 Guests
-                                </li>
-                                <li class="d-flex flex-column align-items-center gap-2 black-clr fs-16 fw-500">
-                                    <i class="fas fa-coffee"></i> Breakfast
+                                <li class="d-flex align-items-center gap-1 black-clr fs-14 fw-500">
+                                    <img src="assets/img/icon/guests-white.png" alt="img" class="white-icon"> 4 Guests
                                 </li>
                             </ul>
-                            <a href="#" class="theme-btn fw-normal text-capitalize gap-1 py-3 px-6">Book Now</a>
+                            <div class="boxes">
+                                <h3 class="theme2-clr mb-xxl-1 mb-0 fs-32 body-font fw-bold">$180 <span
+                                        class="black-clr body-font fw-500 fs-14">/04 Day</span></h3>
+                                <h3 class="mb-xl-3 mb-2">
+                                    <a href="room-details.html" class="fw-semibold d-block black-clr">
+                                        Modern Duplex Rooms
+                                    </a>
+                                </h3>
+                                <p class="mb-4">
+                                    Referring to the formatting of a headline related to a Beach Resort
+                                </p>
+                                <a href="room-details.html" class="theme-btn fw-normal text-capitalize gap-1 py-3 px-6">
+                                    Room Details
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="luxries-single-item white-bg wow fadeInUp" data-wow-delay=".7s">
-                        <a href="#" class="thumb d-block mb-4 w-100 overflow-hidden">
-                            <img src="assets/img/jaide-fb/rooms-inside/9.jpg"
-                                alt="Lake View Suite" class="w-100 overflow-hidden">
+                    <div class="luxries-room-item wow fadeInLeft" data-wow-delay=".6s">
+                        <a href="room-details.html" class="thumb d-block w-100 overflow-hidden">
+                            <img src="assets/img/rooms/rooms-v1.jpg" alt="img" class="w-100 overflow-hidden">
                         </a>
                         <div class="content">
-                            <span class="text-clr fs-16 fw-bold d-block mb-1">King Bed</span>
-                            <h3 class="mb-sm-4 mb-3">
-                                <a href="#" class="fw-semibold d-block black-clr">Kandy Lake Suite</a>
-                            </h3>
-                            <ul class="blog-admin d-flex align-items-center justify-content-center gap-3 mb-4 pb-xxl-2">
-                                <li class="d-flex flex-column align-items-center gap-2 black-clr fs-16 fw-500">
-                                    <i class="fas fa-expand-arrows-alt"></i> 520sq ft
+                            <ul class="blog-admin d-flex align-items-center justify-content-center gap-3">
+                                <li class="d-flex align-items-center gap-1 black-clr fs-14 fw-500">
+                                    <img src="assets/img/icon/square-white.png" alt="img" class="white-icon"> 260sq
                                 </li>
-                                <li class="d-flex flex-column align-items-center gap-2 black-clr fs-16 fw-500">
-                                    <i class="fas fa-bed"></i> King Bed
+                                <li class="d-flex align-items-center gap-1 black-clr fs-14 fw-500">
+                                    <img src="assets/img/icon/double-bed-white.png" alt="img" class="white-icon"> 2 Beds
                                 </li>
-                                <li class="d-flex flex-column align-items-center gap-2 black-clr fs-16 fw-500">
-                                    <i class="fas fa-users"></i> 3 Guests
-                                </li>
-                                <li class="d-flex flex-column align-items-center gap-2 black-clr fs-16 fw-500">
-                                    <i class="fas fa-coffee"></i> Breakfast
+                                <li class="d-flex align-items-center gap-1 black-clr fs-14 fw-500">
+                                    <img src="assets/img/icon/guests-white.png" alt="img" class="white-icon"> 4 Guests
                                 </li>
                             </ul>
-                            <a href="#" class="theme-btn fw-normal text-capitalize gap-1 py-3 px-6">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Hotel Booking Section -->
-    <section class="hotel-booking z-1 bg3 position-relative space-bottom section-padding">
-        <div class="container pb-xl-5">
-            <div class="row g-4 align-items-end">
-                <div class="col-lg-5">
-                    <div class="booking-info-area">
-                        <div class="section-title mb-3">
-                            <span class="sub-font wow fadeInUp">Rooms & Suites</span>
-                            <h3 class="fw-semibold fs-32 wow fadeInUp" data-wow-delay=".3s">Hotel Bookings</h3>
-                        </div>
-                        <form action="#" class="booking-form">
-                            <div class="book-form mb-3">
-                                <label for="checkin" class="fw-500 fs-14 black-clr d-block mb-lg-2 mb-1">Check
-                                    In:</label>
-                                <div class="input-area">
-                                    <input type="date" id="checkin" placeholder="dd/mm/yyyy">
-                                </div>
-                            </div>
-                            <div class="book-form mb-3">
-                                <label for="checkout" class="fw-500 fs-14 black-clr d-block mb-lg-2 mb-1">Check
-                                    Out:</label>
-                                <div class="input-area">
-                                    <input type="date" id="checkout" placeholder="dd/mm/yyyy">
-                                </div>
-                            </div>
-                            <div class="book-form mb-3">
-                                <label for="adult" class="fw-500 fs-14 black-clr d-block mb-lg-2 mb-1">Adults:</label>
-                                <div class="input-area">
-                                    <select id="adult" class="form-control">
-                                        <option>1 Adult</option>
-                                        <option>2 Adults</option>
-                                        <option>3 Adults</option>
-                                        <option>4 Adults</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="book-form mb-4">
-                                <label for="child" class="fw-500 fs-14 black-clr d-block mb-lg-2 mb-1">Children:</label>
-                                <div class="input-area">
-                                    <select id="child" class="form-control">
-                                        <option>0 Children</option>
-                                        <option>1 Child</option>
-                                        <option>2 Children</option>
-                                        <option>3 Children</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="book-form text-center">
-                                <a href="#"
-                                    class="theme-btn py-sm-3 py-3 fw-normal text-capitalize gap-1 px-sm-4 px-4">Check
-                                    Availability</a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="hotel-booking-content">
-                        <div class="section-title">
-                            <span class="sub-font wow fadeInUp">Nearby Attractions</span>
-                            <h2 class="fw-semibold wow fadeInUp mb-sm-3 mb-2" data-wow-delay=".3s">
-                                Uncover the wonders of Kandy – a city steeped in royal legacy and spiritual heritage.
-                            </h2>
-                            <p class="black-clr fs-16 mb-lg-4 mb-3">
-                                From sacred sites to scenic getaways, explore:
-                            </p>
-                            <div class="booking-listing-inner mb-4 pb-lg-3">
-                                <ul class="list d-grid gap-sm-2 gap-1">
-                                    <li class="heading-font black-clr fs-16 fw-500">
-                                        <i class="fa-solid fa-circle"></i>Temple of the Sacred Tooth
-                                    </li>
-                                    <li class="heading-font black-clr fs-16 fw-500">
-                                        <i class="fa-solid fa-circle"></i>Kandy Lake (Bogambara)
-                                    </li>
-                                    <li class="heading-font black-clr fs-16 fw-500">
-                                        <i class="fa-solid fa-circle"></i>Royal Botanical Gardens
-                                    </li>
-                                    <li class="heading-font black-clr fs-16 fw-500">
-                                        <i class="fa-solid fa-circle"></i>Udawattakele Sanctuary
-                                    </li>
-                                </ul>
-                                <ul class="list d-grid gap-sm-2 gap-1">
-                                    <li class="heading-font black-clr fs-16 fw-500">
-                                        <i class="fa-solid fa-circle"></i>Kandy Cultural Centre
-                                    </li>
-                                    <li class="heading-font black-clr fs-16 fw-500">
-                                        <i class="fa-solid fa-circle"></i>Bahirawakanda Temple
-                                    </li>
-                                    <li class="heading-font black-clr fs-16 fw-500">
-                                        <i class="fa-solid fa-circle"></i>Ceylon Tea Museum
-                                    </li>
-                                    <li class="heading-font black-clr fs-16 fw-500">
-                                        <i class="fa-solid fa-circle"></i>Embekke Devalaya
-                                    </li>
-                                </ul>
-                            </div>
-                            <a href="#"
-                                class="theme-btn py-sm-3 py-3 fw-normal text-capitalize gap-1 px-sm-4 px-4">Cultural
-                                Tours</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Hotel Information Section -->
-    <section class="hotel-info-section section-padding">
-        <div class="container">
-            <div class="row g-4 align-items-center mb-0">
-                <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".3s">
-                    <div class="hotel-info-content">
-                        <div class="section-title mb-4">
-                            <span class="sub-font wow fadeInUp">Your Home Away From Home</span>
-                            <h2 class="fw-semibold wow fadeInUp mb-3" data-wow-delay=".3s">
-                                Discover Laksam Hotels Kandy
-                            </h2>
-                            <p class="fs-18 pra-clr mb-4">
-                                Nestled in the heart of Kandy at No:30, Gemunu Pura, Magasthota, Laksam Hotels offers an intimate 
-                                boutique experience just 1.5 km from the city center. Our charming property combines the warmth 
-                                of a family guesthouse with modern hotel amenities.
-                            </p>
-                        </div>
-                        
-                        <div class="hotel-features mb-4">
-                            <h4 class="fw-semibold mb-3">What Makes Us Special</h4>
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <div class="feature-item d-flex align-items-center gap-3">
-                                        <i class="fas fa-wifi text-clr fs-20"></i>
-                                        <span class="fw-500">Free WiFi Throughout</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="feature-item d-flex align-items-center gap-3">
-                                        <i class="fas fa-car text-clr fs-20"></i>
-                                        <span class="fw-500">Free Private Parking</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="feature-item d-flex align-items-center gap-3">
-                                        <i class="fas fa-snowflake text-clr fs-20"></i>
-                                        <span class="fw-500">Air Conditioning</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="feature-item d-flex align-items-center gap-3">
-                                        <i class="fas fa-smoking-ban text-clr fs-20"></i>
-                                        <span class="fw-500">Non-Smoking Rooms</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="feature-item d-flex align-items-center gap-3">
-                                        <i class="fas fa-seedling text-clr fs-20"></i>
-                                        <span class="fw-500">Garden Views</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="feature-item d-flex align-items-center gap-3">
-                                        <i class="fas fa-mountain text-clr fs-20"></i>
-                                        <span class="fw-500">Mountain Views</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="contact-info-box">
-                            <h5 class="fw-semibold mb-3">Contact Information</h5>
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <div class="contact-item d-flex align-items-start gap-2">
-                                        <i class="fas fa-map-marker-alt text-clr mt-1"></i>
-                                        <span class="fw-500">No:30, Gemunu Pura, Magasthota, Nuwara Eliya, Sri Lanka</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="contact-item d-flex align-items-center gap-2">
-                                        <i class="fas fa-phone text-clr"></i>
-                                        <span class="fw-500">0777 611 290</span>
-                                    </div>
-                                </div>
+                            <div class="boxes">
+                                <h3 class="theme2-clr mb-xxl-1 mb-0 fs-32 body-font fw-bold">$380 <span
+                                        class="black-clr body-font fw-500 fs-14">/04 Day</span></h3>
+                                <h3 class="mb-xl-3 mb-2">
+                                    <a href="room-details.html" class="fw-semibold d-block black-clr">
+                                        Standard Duplex Rooms
+                                    </a>
+                                </h3>
+                                <p class="mb-4">
+                                    Referring to the formatting of a headline related to a Beach Resort
+                                </p>
+                                <a href="room-details.html" class="theme-btn fw-normal text-capitalize gap-1 py-3 px-6">
+                                    Room Details
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-lg-6 wow fadeInRight" data-wow-delay=".5s">
-                    <div class="hotel-info-images">
-                        <div class="main-image mb-3">
-                            <img src="assets/img/jaide-fb/outside/10.jpg" 
-                                 alt="Laksam Hotels Exterior" 
-                                 class="w-100 rounded aspect-video">
-                        </div>
-                        <div class="row g-2">
-                            <div class="col-6">
-                                <img src="assets/img/jaide-fb/kandy/7.jpg" 
-                                     alt="Kandy Location" 
-                                     class="w-100 rounded aspect-video">
-                            </div>
-                            <div class="col-6">
-                                <img src="assets/img/jaide-fb/rooms-inside/3.webp" 
-                                     alt="Room Interior" 
-                                     class="w-100 rounded aspect-video">
+                <div class="col-md-6 col-lg-4">
+                    <div class="luxries-room-item wow fadeInUp" data-wow-delay=".4s">
+                        <a href="room-details.html" class="thumb d-block w-100 overflow-hidden">
+                            <img src="assets/img/rooms/rooms-v4.jpg" alt="img" class="w-100 overflow-hidden">
+                        </a>
+                        <div class="content">
+                            <ul class="blog-admin d-flex align-items-center justify-content-center gap-3">
+                                <li class="d-flex align-items-center gap-1 black-clr fs-14 fw-500">
+                                    <img src="assets/img/icon/square-white.png" alt="img" class="white-icon"> 260sq
+                                </li>
+                                <li class="d-flex align-items-center gap-1 black-clr fs-14 fw-500">
+                                    <img src="assets/img/icon/double-bed-white.png" alt="img" class="white-icon"> 2 Beds
+                                </li>
+                                <li class="d-flex align-items-center gap-1 black-clr fs-14 fw-500">
+                                    <img src="assets/img/icon/guests-white.png" alt="img" class="white-icon"> 4 Guests
+                                </li>
+                            </ul>
+                            <div class="boxes">
+                                <h3 class="theme2-clr mb-xxl-1 mb-0 fs-32 body-font fw-bold">$260 <span
+                                        class="black-clr body-font fw-500 fs-14">/04 Day</span></h3>
+                                <h3 class="mb-xl-3 mb-2">
+                                    <a href="room-details.html" class="fw-semibold d-block black-clr">
+                                        Double Duplex Rooms
+                                    </a>
+                                </h3>
+                                <p class="mb-4">
+                                    Referring to the formatting of a headline related to a Beach Resort
+                                </p>
+                                <a href="room-details.html" class="theme-btn fw-normal text-capitalize gap-1 py-3 px-6">
+                                    Room Details
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- Check-in Information & Services -->
-            <div class="row g-4 mt-0">
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="info-card text-center p-4 white-bg rounded shadow-sm h-100">
-                        <div class="icon mb-3">
-                            <i class="fas fa-clock fs-32 text-clr"></i>
+                <div class="col-md-6 col-lg-4">
+                    <div class="luxries-room-item wow fadeInRight" data-wow-delay=".5s">
+                        <a href="room-details.html" class="thumb d-block w-100 overflow-hidden">
+                            <img src="assets/img/rooms/rooms-v5.jpg" alt="img" class="w-100 overflow-hidden">
+                        </a>
+                        <div class="content">
+                            <ul class="blog-admin d-flex align-items-center justify-content-center gap-3">
+                                <li class="d-flex align-items-center gap-1 black-clr fs-14 fw-500">
+                                    <img src="assets/img/icon/square-white.png" alt="img" class="white-icon"> 260sq
+                                </li>
+                                <li class="d-flex align-items-center gap-1 black-clr fs-14 fw-500">
+                                    <img src="assets/img/icon/double-bed-white.png" alt="img" class="white-icon"> 2 Beds
+                                </li>
+                                <li class="d-flex align-items-center gap-1 black-clr fs-14 fw-500">
+                                    <img src="assets/img/icon/guests-white.png" alt="img" class="white-icon"> 4 Guests
+                                </li>
+                            </ul>
+                            <div class="boxes">
+                                <h3 class="theme2-clr mb-xxl-1 mb-0 fs-32 body-font fw-bold">$399 <span
+                                        class="black-clr body-font fw-500 fs-14">/04 Day</span></h3>
+                                <h3 class="mb-xl-3 mb-2">
+                                    <a href="room-details.html" class="fw-semibold d-block black-clr">
+                                        Family Duplex Rooms
+                                    </a>
+                                </h3>
+                                <p class="mb-4">
+                                    Referring to the formatting of a headline related to a Beach Resort
+                                </p>
+                                <a href="room-details.html" class="theme-btn fw-normal text-capitalize gap-1 py-3 px-6">
+                                    Room Details
+                                </a>
+                            </div>
                         </div>
-                        <h4 class="fw-semibold mb-2">Check-in & Check-out</h4>
-                        <p class="mb-2"><strong>Check-in:</strong> From 2:00 PM</p>
-                        <p><strong>Check-out:</strong> Until 11:00 AM</p>
                     </div>
                 </div>
-                
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="info-card text-center p-4 white-bg rounded shadow-sm h-100">
-                        <div class="icon mb-3">
-                            <i class="fas fa-concierge-bell fs-32 text-clr"></i>
-                        </div>
-                        <h4 class="fw-semibold mb-2">Additional Services</h4>
-                        <p class="mb-1">• Airport Shuttle Service</p>
-                        <p class="mb-1">• Car Hire Arrangements</p>
-                        <p>• Bicycle Rental</p>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay=".7s">
-                    <div class="info-card text-center p-4 white-bg rounded shadow-sm h-100">
-                        <div class="icon mb-3">
-                            <i class="fas fa-map-marked-alt fs-32 text-clr"></i>
-                        </div>
-                        <h4 class="fw-semibold mb-2">Prime Location</h4>
-                        <p class="mb-1">• 1.5 km from Kandy Center</p>
-                        <p class="mb-1">• 3 km to Ceylon Tea Museum</p>
-                        <p>• Walking distance to attractions</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Special Features -->
-            <div class="row mt-5">
-                <div class="col-12">
-                    <div class="special-features-box p-5 theme-bg rounded text-center">
-                        <h3 class="fw-semibold mb-4 black-clr">Experience Kandy's Vibrant Culture</h3>
-                        <p class="fs-18 black-clr mb-4">
-                            At Laksam Hotels, we don't just offer accommodation – we provide a gateway to Kandy's rich cultural heritage. 
-                            Experience vibrant nightlife, traditional music, and elegant cultural events, all under one roof.
-                        </p>
-                        <div class="row g-3 justify-content-center">
-                            <div class="col-auto">
-                                <span class="badge bg-white text-dark px-3 py-2 fw-500">Boutique Experience</span>
-                            </div>
-                            <div class="col-auto">
-                                <span class="badge bg-white text-dark px-3 py-2 fw-500">8 Exclusive Rooms</span>
-                            </div>
-                            <div class="col-auto">
-                                <span class="badge bg-white text-dark px-3 py-2 fw-500">Cultural Events</span>
-                            </div>
-                            <div class="col-auto">
-                                <span class="badge bg-white text-dark px-3 py-2 fw-500">Family-Friendly</span>
+                <div class="col-md-6 col-lg-4">
+                    <div class="luxries-room-item wow fadeInLeft" data-wow-delay=".6s">
+                        <a href="room-details.html" class="thumb d-block w-100 overflow-hidden">
+                            <img src="assets/img/rooms/rooms-v6.jpg" alt="img" class="w-100 overflow-hidden">
+                        </a>
+                        <div class="content">
+                            <ul class="blog-admin d-flex align-items-center justify-content-center gap-3">
+                                <li class="d-flex align-items-center gap-1 black-clr fs-14 fw-500">
+                                    <img src="assets/img/icon/square-white.png" alt="img" class="white-icon"> 260sq
+                                </li>
+                                <li class="d-flex align-items-center gap-1 black-clr fs-14 fw-500">
+                                    <img src="assets/img/icon/double-bed-white.png" alt="img" class="white-icon"> 2 Beds
+                                </li>
+                                <li class="d-flex align-items-center gap-1 black-clr fs-14 fw-500">
+                                    <img src="assets/img/icon/guests-white.png" alt="img" class="white-icon"> 4 Guests
+                                </li>
+                            </ul>
+                            <div class="boxes">
+                                <h3 class="theme2-clr mb-xxl-1 mb-0 fs-32 body-font fw-bold">$280 <span
+                                        class="black-clr body-font fw-500 fs-14">/04 Day</span></h3>
+                                <h3 class="mb-xl-3 mb-2">
+                                    <a href="room-details.html" class="fw-semibold d-block black-clr">
+                                        Premium Duplex Rooms
+                                    </a>
+                                </h3>
+                                <p class="mb-4">
+                                    Referring to the formatting of a headline related to a Beach Resort
+                                </p>
+                                <a href="room-details.html" class="theme-btn fw-normal text-capitalize gap-1 py-3 px-6">
+                                    Room Details
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -816,112 +685,134 @@
         </div>
     </section>
 
-    <hr>
-
-    <!-- Testimonials Section -->
-    <section class="testimonial-section section-padding fix bg3">
+    <!-- Testimonial section start -->
+    <section class="testimonial-section2 testimonial-style3 bg2 section-padding fix">
         <div class="container position-relative">
-            <div class="section-title text-center mb-50">
-                <span class="sub-font wow fadeInUp">Guest Reviews</span>
-                <h2 class="fw-semibold wow fadeInUp" data-wow-delay=".3s">What Our Customers Say</h2>
-            </div>
-            <div class="swiper testimonial-slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="testimonial-items1 text-center">
-                            <div class="testi-admin mb-4 pb-lg-2">
-                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
-                                    alt="Guest" class="rounded-circle">
-                            </div>
-                            <div class="d-flex justify-content-center gap-1 mb-lg-4 mb-3">
-                                <i class="fa-solid fa-star fs-16 ratting-clr"></i>
-                                <i class="fa-solid fa-star fs-16 ratting-clr"></i>
-                                <i class="fa-solid fa-star fs-16 ratting-clr"></i>
-                                <i class="fa-solid fa-star fs-16 ratting-clr"></i>
-                                <i class="fa-solid fa-star fs-16 ratting-clr"></i>
-                            </div>
-                            <h3 class="text-pra heading-font fw-500 position-relative mb-4">
-                                "The Ayurveda spa at Laksam Hotels was nothing short of heavenly. The cuisine was rich
-                                in flavor and culture. The staff made our honeymoon truly memorable."
-                            </h3>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <div class="emma">
-                                    <h4 class="fs-24 mb-1 fw-bold black-clr">Priya & Raj Patel</h4>
-                                    <span class="heading-font fs-16 fw-500 text-clr d-block">Mumbai, India</span>
+            <div class="testimonil-spce-wrapper2 d-flex gap-4 justify-content-between align-items-center">
+                <div class="swiper testimonial-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-items1">
+                                <div class="testi-thumb">
+                                    <img src="assets/img/testimonial/testimonial-big4.jpg" alt="img" class="rounded-3">
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial-items1 text-center">
-                            <div class="testi-admin mb-4 pb-lg-2">
-                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
-                                    alt="Guest" class="rounded-circle">
-                            </div>
-                            <div class="d-flex justify-content-center gap-1 mb-lg-4 mb-3">
-                                <i class="fa-solid fa-star fs-16 ratting-clr"></i>
-                                <i class="fa-solid fa-star fs-16 ratting-clr"></i>
-                                <i class="fa-solid fa-star fs-16 ratting-clr"></i>
-                                <i class="fa-solid fa-star fs-16 ratting-clr"></i>
-                                <i class="fa-solid fa-star fs-16 ratting-clr"></i>
-                            </div>
-                            <h3 class="text-pra heading-font fw-500 position-relative mb-4">
-                                "Laksam Hotels captured the soul of Sri Lanka. The suite overlooking Kandy Lake was
-                                spectacular, and the cultural tours were perfectly arranged."
-                            </h3>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <div class="emma">
-                                    <h4 class="fs-24 mb-1 fw-bold black-clr">Michael & Sarah Johnson</h4>
-                                    <span class="heading-font fs-16 fw-500 text-clr d-block">London, UK</span>
+                                <div class="content-area">
+                                    <img src="assets/img/element/quote-white.png" alt="img"
+                                        class="quote1 d-sm-block d-none">
+                                    <div class="cont">
+                                        <p class="heading-font white-clr mb-lg-0 mb-3">
+                                            Moment we arrived, we were treated like royalty. The staff anticipated our
+                                            every need, from greeting us by name to
+                                            ensuring our room was perfect. They even surprised us with a beautifully
+                                            crafted.
+                                        </p>
+                                        <div class="text-ratting">
+                                            <img src="assets/img/element/quote-white.png" alt="img"
+                                                class="quote1 ms-auto mb-4 d-lg-block d-none">
+                                            <div
+                                                class="d-flex flex-sm-nowrap flex-wrap align-items-center justify-content-sm-between w-75 gap-2">
+                                                <div class="emma">
+                                                    <h3 class="fs-32 mb-sm-2 mb-1 fw-semibold black-clr">
+                                                        Emma & James L.
+                                                    </h3>
+                                                    <span class="heading-font fs-20 fw-500 black-clr d-block">New York
+                                                        City</span>
+                                                </div>
+                                                <div class="d-flex justify-content-center gap-1 mb-lg-4 mb-3">
+                                                    <i class="fa-solid fa-star fs-20 ratting-clr"></i>
+                                                    <i class="fa-solid fa-star fs-20 ratting-clr"></i>
+                                                    <i class="fa-solid fa-star fs-20 ratting-clr"></i>
+                                                    <i class="fa-solid fa-star fs-20 ratting-clr"></i>
+                                                    <i class="fa-solid fa-star fs-20 ratting-clr"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="testimonial-btngrap text-center mt-4">
-                <button type="button" class="common-slide-btn d-center rounded-circle array-prev me-3">
-                    <i class="fa-solid fa-angle-left"></i>
-                </button>
-                <button type="button" class="common-slide-btn d-center rounded-circle array-next">
-                    <i class="fa-solid fa-angle-right"></i>
-                </button>
+                <div class="testimonial-btngrap2">
+                    <button type="button" class="common-slide-btn d-center rounded-circle array-prev">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </button>
+                    <button type="button" class="common-slide-btn d-center rounded-circle array-next">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- FAQ Section -->
-    <section class="faq-section section-padding common-bg">
+    <!-- Drinks Section -->
+    <section class="drinks-section fix section-padding">
         <div class="container">
-            <div class="section-title mb-50 text-center">
-                <span class="sub-font wow fadeInUp">FAQs</span>
-                <h2 class="fw-semibold wow fadeInUp" data-wow-delay=".3s">
-                    Frequently Asked Questions<br>About Laksam Hotels Kandy
+            <div class="drinks-head">
+                <div class="section-title text-center mb-4 pb-xxl-1">
+                    <span class="sub-font wow fadeInUp">Eat & Drinks</span>
+                    <h2 class="fw-semibold text-capitalize wow fadeInUp mb-4 pb-xxl-1" data-wow-delay=".3s">
+                        We are a kitchen club and a hangout for the day and the night
+                    </h2>
+                    <p class="black-clr fs-16 mb-sm-4 mb-4 pb-xxl-3 pb-xl-1 wow fadeInUp" data-wow-delay=".4s">
+                        It sounds like you're referring to the formatting of a headline related to a city hotel. If you
+                        are asking how to write
+                        or format a headline about a Luxury hotel, here's a simple guide Are you writing headline or
+                        looking
+                        for recent news on city hotels.
+                    </p>
+                    <a href="room-list.html"
+                        class="theme-btn extra-bg text-nowrap fw-normal text-capitalize gap-1 px-6 rounded-3">
+                        Book Now
+                    </a>
+                </div>
+            </div>
+            <div class="drink-all-thumb d-flex gap-sm-4 gap-3 justify-content-between align-items-end">
+                <div class="drinks-items w-100 rounded-3 wow fadeInRight" data-wow-delay=".5s">
+                    <img src="assets/img/blog/drinks1.jpg" alt="img" class="w-100 rounded-3">
+                </div>
+                <div class="drinks-items w-100 rounded-3 wow fadeInUp" data-wow-delay=".4s">
+                    <img src="assets/img/blog/drinks12.jpg" alt="img" class="w-100 rounded-3">
+                </div>
+                <div class="drinks-items w-100 rounded-3 wow fadeInLeft" data-wow-delay=".5s">
+                    <img src="assets/img/blog/drinks1.jpg" alt="img" class="w-100 rounded-3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faq Section -->
+    <section class="faq-section section-padding black-bg">
+        <div class="container">
+            <div class="section-title text-center mb-50">
+                <span class="sub-font text-white wow fadeInUp">Faqs</span>
+                <h2 class="fw-semibold white-clr wow fadeInUp" data-wow-delay=".3s">
+                    Frequently Asked Questions <br> For Our Hotel Systems
                 </h2>
             </div>
             <div class="row g-4 align-items-center">
                 <div class="col-lg-6">
-                    <div class="faq-thumb img-hover w-100 pe-lg-4 wow fadeInRight" data-wow-delay=".4s">
-                        <img src="assets/img/jaide-fb/kandy/8.jpg" alt="Temple of the Tooth Kandy"
-                            class="w-100 rounded-4">
+                    <div class="faq-thumb w-100 pe-lg-4 wow fadeInRight" data-wow-delay=".4s">
+                        <img src="assets/img/global/faq-thumb.jpg" alt="img" class="w-100 rounded-4">
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="accordion custom-accordion d-grid gap-4" id="accordionExample">
+                    <div class="accordion custom-accordion white-version d-grid gap-4" id="accordionExample">
                         <div class="accordion-item bg-transparent wow fadeInUp" data-wow-delay=".3s">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button bg-transparent" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    How do I book a stay at Laksam Hotels Kandy?
+                                    How do I make a Reservations?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body pt-xl-3 pt-2">
                                     <p class="fs-16">
-                                        Reserve directly via our website, call 0777 611 290, or email
-                                        info@laksam.lk. We suggest booking early during peak seasons
-                                        (Dec–Apr).
+                                        Could you clarify what kind of reservations you're referring to? It could be
+                                        anything from booking a restaurant table to
+                                        making a hotel or event reservation. Let me know what you need, and I can guide
+                                        you through the process!
                                     </p>
                                 </div>
                             </div>
@@ -932,15 +823,17 @@
                                 <button class="accordion-button bg-transparent collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                                     aria-controls="collapseTwo">
-                                    What nearby attractions can I visit?
+                                    What forms of payment do you accept?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body pt-xl-3 pt-2">
                                     <p class="fs-16">
-                                        Attractions such as the Temple of the Sacred Tooth, Royal Botanical Gardens, and
-                                        more are within reach. We also offer guided cultural tours.
+                                        Could you clarify what kind of reservations you're referring to? It could be
+                                        anything from booking a restaurant table to
+                                        making a hotel or event reservation. Let me know what you need, and I can guide
+                                        you through the process!
                                     </p>
                                 </div>
                             </div>
@@ -951,14 +844,18 @@
                                 <button class="accordion-button bg-transparent collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
                                     aria-controls="collapseThree">
-                                    Do you provide airport transfers?
+                                    Can I request a room with a Specific view?
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body pt-xl-3 pt-2">
-                                    <p class="fs-16">Yes. We offer scenic luxury transfers from Bandaranaike
-                                        International Airport, Colombo, and Kandy railway stations.</p>
+                                    <p class="fs-16">
+                                        Could you clarify what kind of reservations you're referring to? It could be
+                                        anything from booking a restaurant table to
+                                        making a hotel or event reservation. Let me know what you need, and I can guide
+                                        you through the process!
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -968,15 +865,17 @@
                                 <button class="accordion-button bg-transparent collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
                                     aria-controls="collapseFour">
-                                    What dining experiences are available?
+                                    Our Gateway to luxury living?
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body pt-xl-3 pt-2">
                                     <p class="fs-16">
-                                        Enjoy authentic Sri Lankan meals and international dishes at our signature
-                                        restaurant, with 24/7 room service available.
+                                        Could you clarify what kind of reservations you're referring to? It could be
+                                        anything from booking a restaurant table to
+                                        making a hotel or event reservation. Let me know what you need, and I can guide
+                                        you through the process!
                                     </p>
                                 </div>
                             </div>
@@ -988,7 +887,7 @@
     </section>
 
     <!-- Footer section start -->
-    <footer class="footer-section fix black-bg">
+    <footer class="footer-section footer-style2 fix white-bg">
         <div class="container">
             <div class="footer-widget-wrapper">
                 <div class="row g-5">
@@ -996,13 +895,19 @@
                         <div class="single-footer-widget">
                             <div class="widget-head">
                                 <a href="index.html">
-                                    <img src="assets/img/logo.png" width="100" alt="logo-img">
+                                    <img src="assets/img/logo.png" alt="logo-img" style="width: 100px;">
                                 </a>
                             </div>
                             <div class="footer-content">
-                                <p class="fs-16 text-clr">
+                                <p class="fs-16 black-clr">
                                     An exceptional fusion of timeless Sri Lankan charm and modern elegance.
                                 </p>
+                                <form action="#" class="adjust-form d-flex align-items-center">
+                                    <input type="text" placeholder="Enter your mail">
+                                    <button type="submit" class="theme-btn py-2 px-2 d-center">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+                                </form>
                                 <div class="social-cmn d-flex align-items-center gap-2 wow fadeInUp"
                                     data-wow-delay=".5s">
                                     <a href="#" class="d-center rounded-circle"><i class="fab fa-facebook-f"></i></a>
@@ -1017,7 +922,7 @@
                     <div class="d-flex justify-content-sm-center col-xl-3 col-lg-3 col-sm-6 wow fadeInUp"
                         data-wow-delay=".4s">
                         <div class="single-footer-widget">
-                            <div class="widget-head fs-20 white-clr fw-semibold">
+                            <div class="widget-head fs-20 black-clr fw-semibold">
                                 Quick Links
                             </div>
                             <ul class="important-link d-grid gap-sm-2 gap-1">
@@ -1042,7 +947,7 @@
                     <div class="d-flex justify-content-sm-center col-xl-3 col-lg-3 col-sm-6 wow fadeInUp"
                         data-wow-delay=".3s">
                         <div class="single-footer-widget">
-                            <div class="widget-head fs-20 white-clr fw-semibold">
+                            <div class="widget-head fs-20 black-clr fw-semibold">
                                 Information
                             </div>
                             <ul class="adredd-info d-grid gap-xxl-4 gap-xl-3 gap-2">
@@ -1059,7 +964,7 @@
                                             stroke-linejoin="round" />
                                     </svg>
                                     <a href="#">
-                                        No:30, Gemunu Pura, Magasthota, Nuwara Eliya, Sri Lanka
+                                        No:30, Gemunu Pura, Magasthota, Nuwara Eliya
                                     </a>
                                 </li>
                                 <li class="d-flex align-items-center gap-xl-3 gap-2">
@@ -1067,7 +972,7 @@
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
                                             d="M522.484 691.077C455.147 674.207 317.297 626.644 192.326 501.674C67.3552 376.704 19.7936 238.853 2.92257 171.517C-6.77276 132.82 10.6862 95.4782 40.2899 74.3326L117.898 18.8979C163.308 -13.5371 226.478 -2.53076 258.242 43.3506L307.1 113.926C327.84 143.884 320.687 184.944 291.037 206.122L252.078 233.95C257.975 256.504 276.313 302.82 333.747 360.254C391.18 417.687 437.497 436.024 460.05 441.92L487.877 402.96C509.057 373.314 550.117 366.157 580.074 386.897L650.65 435.757C696.53 467.524 707.537 530.69 675.1 576.1L619.667 653.71C598.52 683.314 561.18 700.774 522.484 691.077ZM239.466 454.534C353.114 568.18 478.527 611.337 538.684 626.41C547.477 628.61 558.107 625.194 565.417 614.96L620.854 537.35C631.664 522.217 627.997 501.16 612.7 490.57L542.127 441.71L512.264 483.52C500.06 500.607 477.49 514.007 451.21 508.337C418.41 501.26 357.777 478.564 286.607 407.394C215.437 336.224 192.74 275.59 185.663 242.79C179.993 216.51 193.394 193.941 210.48 181.736L252.288 151.873L203.429 81.2979C192.841 66.0039 171.784 62.3352 156.648 73.1469L79.0392 128.582C68.8046 135.892 65.3876 146.522 67.5906 155.315C82.6632 215.473 125.82 340.887 239.466 454.534Z"
-                                            fill="#fff" />
+                                            fill="#000" />
                                     </svg>
 
 
@@ -1078,22 +983,22 @@
                                 <li class="d-flex align-items-center gap-xl-3 gap-2">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_1_247601)">
+                                        <g clip-path="url(#clip0_1_2476)">
                                             <path
                                                 d="M12.0002 5.60006V12.0001L16.2668 14.1334M22.6668 12.0002C22.6668 17.8912 17.8912 22.6668 12.0002 22.6668C6.10912 22.6668 1.3335 17.8912 1.3335 12.0002C1.3335 6.10912 6.10912 1.3335 12.0002 1.3335C17.8912 1.3335 22.6668 6.10912 22.6668 12.0002Z"
                                                 stroke="white" stroke-width="1.6" stroke-linecap="round"
                                                 stroke-linejoin="round" />
                                         </g>
                                         <defs>
-                                            <clipPath id="clip0_1_247601">
+                                            <clipPath id="clip0_1_2476">
                                                 <rect width="24" height="24" fill="white" />
                                             </clipPath>
                                         </defs>
                                     </svg>
                                     <a href="#">
-                                        Mon – Sat: 8:00 AM – 5:00 PM,
-                                        <span class="d-flex align-items-center gap-1 fs-16 text-clr">
-                                            Sunday: <span class="text-white text-uppercase">CLOSED</span>
+                                        Mon – Sat: 8 am – 5 pm,
+                                        <span class="d-flex align-items-center gap-1 fs-16 black-clr">
+                                            Sunday: <span class="black-clr fw-500 text-uppercase">CLOSED</span>
                                         </span>
                                     </a>
                                 </li>
@@ -1103,22 +1008,28 @@
                     <div class="d-flex justify-content-sm-center col-xl-3 col-lg-3 col-sm-6 wow fadeInUp"
                         data-wow-delay=".5s">
                         <div class="single-footer-widget">
-                            <div class="widget-head fs-20 white-clr fw-semibold">
+                            <div class="widget-head fs-20 black-clr fw-semibold">
                                 Payments Methods
                             </div>
-                            <p class="mb-4 fs-16 white-clr fw-500">
-                                We accept all major international cards and cash. Choose the payment method that suits
-                                you best.
+                            <p class="mb-4 fs-16 black-clr fw-500">
+                                Pay any way choose , No matter whether its cash or an international payment card ,
+                                we support all options.
                             </p>
                             <div class="d-flex align-items-center gap-xxl-3 gap-2 flex-wrap">
-
+                                <button type="button">
+                                    <img src="assets/img/hero/payneer.png" alt="payment">
+                                </button>
                                 <button type="button">
                                     <img src="assets/img/hero/master.png" alt="payment">
                                 </button>
                                 <button type="button">
-                                    <img src="assets/img/hero/visa.png" width="30" height="24"
-                                        style="background-color: white; border-radius: 3px; object-fit: contain;"
-                                        alt="payment">
+                                    <img src="assets/img/hero/paypal.png" alt="payment">
+                                </button>
+                                <button type="button">
+                                    <img src="assets/img/hero/app-master.png" alt="payment">
+                                </button>
+                                <button type="button">
+                                    <img src="assets/img/hero/stripe.png" alt="payment">
                                 </button>
                             </div>
                         </div>
@@ -1143,7 +1054,6 @@
     };
   </script>
 
-
     <!--<< All JS Plugins >>-->
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <!--<< Viewport Js >>-->
@@ -1167,7 +1077,5 @@
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
 </body>
-
-
 
 </html>
