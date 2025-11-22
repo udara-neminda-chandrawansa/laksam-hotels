@@ -4771,7 +4771,7 @@ span {
 }
 
 .breadcrumb-section {
-  background: url(../img/hero/kandy-1.webp) no-repeat center center;
+  background: url(../img/places/nuwa-eliya.webp) no-repeat center center;
   background-size: cover;
   padding: 250px 0 150px;
   position: relative;
@@ -4799,15 +4799,15 @@ span {
   }
 }
 .breadcrumb-section.restaurant-bread {
-  background: url(../img/hero/restaurant-bread.jpg) no-repeat center center;
+  background: url(../img/places/horton-plains-national.webp) no-repeat center center;
   background-size: cover;
 }
 .breadcrumb-section.rooms-bread {
-  background: url(../img/hero/room-bread.jpg) no-repeat center center;
+  background: url(../img/places/Ramboda-Falls.jpg) no-repeat center center;
   background-size: cover;
 }
 .breadcrumb-section.reservation-bread {
-  background: url(../img/hero/restaurant-bread.jpg) no-repeat center center;
+  background: url(../img/places/victoria.webp) no-repeat center center;
   background-size: cover;
 }
 
